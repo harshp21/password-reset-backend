@@ -52,7 +52,7 @@ var nodemailer_1 = __importDefault(require("nodemailer"));
 var app = express_1.default();
 var url = 'mongodb+srv://harsh:harsh123@cluster0.vjrm0.mongodb.net/<dbname>?retryWrites=true&w=majority';
 var dbName = 'short_url';
-var origin = 'http://127.0.0.1:5500';
+var origin = 'https://compassionate-booth-94e828.netlify.app';
 //middleware
 app.use(body_parser_1.default.urlencoded({ extended: true }));
 app.use(body_parser_1.default.json());
