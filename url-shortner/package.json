@@ -19,7 +19,7 @@
     "valid-url": "^1.0.9"
   },
   "scripts": {
-    "start": "tsc && node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
