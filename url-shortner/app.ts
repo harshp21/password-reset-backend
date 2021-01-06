@@ -14,7 +14,7 @@ const app: Application = express();
 const url: string = 'mongodb+srv://harsh:harsh123@cluster0.vjrm0.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const dbName: string = 'short_url';
 
-let origin = 'http://127.0.0.1:5500';
+let origin = 'https://compassionate-booth-94e828.netlify.app';
 
 //middleware
 app.use(bodyParser.urlencoded({ extended: true }));
