@@ -302,4 +302,4 @@ app.put('/reset', async (req, res) => {
 })
 
 //listen on port
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
