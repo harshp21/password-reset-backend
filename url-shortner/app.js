@@ -446,4 +446,4 @@ app.put('/reset', function (req, res) { return __awaiter(void 0, void 0, void 0,
     });
 }); });
 //listen on port
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
